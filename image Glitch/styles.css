@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("bg.jpg");
+    background-attachment: fixed;
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.box {
+    position: absolute;
+    background-image: url("bg.jpg");
+    background-attachment: fixed;
+    /*filter: blur(1px) hue-rotate(120deg) opacity(90%);*/
+}
